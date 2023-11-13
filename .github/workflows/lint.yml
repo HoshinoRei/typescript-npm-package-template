@@ -1,0 +1,28 @@
+name: Lint
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  check:
+    name: Check lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: 21
+      - name: Install dependencies
+        run: pnpm i
+      - name: Check eslint
+        run: pnpm run lint:check
+      - name: Check prettier
+        run: pnpm run format:check
