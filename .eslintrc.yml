@@ -4,13 +4,6 @@ env:
 extends:
   - standard-with-typescript
   - prettier
-overrides:
-  - env:
-      node: true
-    files:
-      - jest.config.ts
-    parserOptions:
-      sourceType: script
 parserOptions:
   ecmaVersion: latest
   project:
