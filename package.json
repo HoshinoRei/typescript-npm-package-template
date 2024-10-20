@@ -45,6 +45,7 @@
     "prettier-plugin-packagejson": "^2.4.5",
     "ts-node": "^10.9.1",
     "typedoc": "^0.26.3",
+    "typedoc-github-wiki-theme": "^2.0.0",
     "typescript": "^5.1.6"
   }
 }
