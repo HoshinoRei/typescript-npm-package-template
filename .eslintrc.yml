@@ -6,8 +6,6 @@ extends:
   - prettier
 parserOptions:
   ecmaVersion: latest
-  project:
-    - tsconfig.json
   sourceType: module
 plugins:
   - simple-import-sort
