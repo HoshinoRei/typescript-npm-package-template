@@ -24,7 +24,7 @@
   ],
   "scripts": {
     "build": "tsc --build --clean && tsc",
-    "doc": "typedoc",
+    "doc": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-github-wiki-theme",
     "format": "prettier --write .",
     "format:check": "prettier -c .",
     "lint": "eslint --fix . --ext .ts --ignore-path .gitignore",
