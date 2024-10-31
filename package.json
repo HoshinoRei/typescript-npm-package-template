@@ -28,8 +28,8 @@
     "doc": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-github-wiki-theme",
     "format": "prettier --write .",
     "format:check": "prettier -c .",
-    "lint": "eslint --fix . --ext .ts --ignore-path .gitignore",
-    "lint:check": "eslint . --ext .ts --ignore-path .gitignore"
+    "lint": "eslint --fix . --ext .ts",
+    "lint:check": "eslint . --ext .ts"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.50.0",
