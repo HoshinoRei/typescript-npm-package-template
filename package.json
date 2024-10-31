@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "build": "tsc && vite build",
+    "dev": "vite",
     "doc": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-github-wiki-theme",
     "format": "prettier --write .",
     "format:check": "prettier -c .",
