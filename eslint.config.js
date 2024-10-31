@@ -1,10 +1,10 @@
-import pluginJs from "@eslint/js";
-import eslintConfigPrettier from "eslint-config-prettier";
-import importPlugin from "eslint-plugin-import";
-import simpleImportSort from "eslint-plugin-simple-import-sort";
-import globals from "globals";
+import pluginJs from "@eslint/js"
+import eslintConfigPrettier from "eslint-config-prettier"
+import importPlugin from "eslint-plugin-import"
+import simpleImportSort from "eslint-plugin-simple-import-sort"
+import globals from "globals"
 // eslint-disable-next-line import/no-unresolved
-import tseslint from "typescript-eslint";
+import tseslint from "typescript-eslint"
 
 export default [
   { files: ["**/*.{js,mjs,cjs,ts}"] },
@@ -22,4 +22,4 @@ export default [
       "simple-import-sort/exports": "error",
     },
   },
-];
+]
