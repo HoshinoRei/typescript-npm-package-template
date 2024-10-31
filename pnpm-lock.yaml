@@ -26,9 +26,6 @@ importers:
       eslint-plugin-n:
         specifier: ^16.0.1
         version: 16.6.2(eslint@8.57.1)
-      eslint-plugin-promise:
-        specifier: ^6.1.1
-        version: 6.6.0(eslint@8.57.1)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
