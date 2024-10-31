@@ -28,19 +28,22 @@
     "doc": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-github-wiki-theme",
     "format": "prettier --write .",
     "format:check": "prettier -c .",
-    "lint": "eslint --fix . --ext .ts",
-    "lint:check": "eslint . --ext .ts"
+    "lint": "eslint --fix .",
+    "lint:check": "eslint ."
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
-    "eslint": "^8.45.0",
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-config-standard-with-typescript": "^36.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "globals": "^15.11.0",
     "prettier": "3.3.3",
     "prettier-plugin-packagejson": "^2.4.5",
     "typedoc": "^0.26.3",
     "typedoc-github-wiki-theme": "^2.0.0",
     "typedoc-plugin-markdown": "^4.2.9",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "typescript-eslint": "^8.11.0"
   }
 }
