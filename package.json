@@ -24,7 +24,7 @@
     "!dist/test"
   ],
   "scripts": {
-    "build": "tsc --build --clean && tsc",
+    "build": "tsc && vite build",
     "doc": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-github-wiki-theme",
     "format": "prettier --write .",
     "format:check": "prettier -c .",
