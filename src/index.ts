@@ -3,5 +3,5 @@
  * @returns "Hello world!"
  */
 export function hello(): string {
-  return "Hello world!";
+  return "Hello world!"
 }
